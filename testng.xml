@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Sreej/IdeaProjects/SampleJUnit">
+        <classes>
+            <class name="Steps.Login">
+                <methods>
+                    <include name="getURL"/>
+                    <include name="enter_UsernamePassword"/>
+                    <include name="clickLogin"/>
+                    <include name="verifyLoginError"/>
+                </methods>
+            </class>
+<!--            <class name="Steps.Simple">-->
+<!--                <methods>-->
+<!--                    <include name="verify"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
